@@ -1,0 +1,74 @@
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин стильных вещей</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="/" class="logo">
+                <img src="./images/logo.png" alt="Логотип магазина" class="logo__image">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#catalog" class="nav__link">Каталог</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <h1 class="hero__title">Новая коллекция уже здесь</h1>
+                <p class="hero__subtitle">Стиль, качество и комфорт для каждого дня</p>
+                <a href="#catalog" class="hero__button">Смотреть товары</a>
+            </div>
+        </section>
+
+        <section class="catalog" id="catalog">
+            <div class="container catalog__container">
+                <h2 class="catalog__title">Популярные товары</h2>
+                <div class="catalog__grid">
+                    <article class="product-card">
+                        <img src="images/product1.jpg" alt="Товар 1" class="product-card__image">
+                        <h3 class="product-card__title">Футболка базовая</h3>
+                        <p class="product-card__description">Хлопок 100%, классический крой</p>
+                        <span class="product-card__price">1 990 ₽</span>
+                    </article>
+                    <article class="product-card">
+                        <img src="images/product2.jpg" alt="Товар 2" class="product-card__image">
+                        <h3 class="product-card__title">Джинсы скинни</h3>
+                        <p class="product-card__description">Тёмно-синий цвет, эластичный деним</p>
+                        <span class="product-card__price">3 490 ₽</span>
+                    </article>
+                    <article class="product-card">
+                        <img src="images/product3.jpg" alt="Товар 3" class="product-card__image">
+                        <h3 class="product-card__title">Кеды белые</h3>
+                        <p class="product-card__description">Натуральная кожа, удобная подошва</p>
+                        <span class="product-card__price">4 290 ₽</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p class="footer__copyright">сайт был создан Данилом</p>
+            <ul class="footer__social">
+                <li class="footer__social-item"><a href="#" class="footer__social-link"></a></li>
+                <li class="footer__social-item"><a href="#" class="footer__social-link"></a></li>
+                <li class="footer__social-item"><a href="#" class="footer__social-link"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body></html>
